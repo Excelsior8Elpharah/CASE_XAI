@@ -29,25 +29,6 @@ Embora modelos de machine learning como Random Forest ofereçam alta performance
 
 ---
 
-## 📂 Estrutura do Projeto
-
-├── data/
-│ └── german_credit_data.csv # Dataset utilizado (Statlog German Credit Data ou similar)
-├── notebooks/
-│ └── credit_approval_lime.ipynb # Notebook com código completo, análise, treino e explicações
-├── requirements.txt # Lista de dependências para instalação rápida
-├── README.md # Documentação do projeto
-└── outputs/
-├── lime_explanations/ # Gráficos e imagens gerados pelo LIME
-├── confusion_matrix.png # Matriz de confusão do modelo
-├── feature_importance.png # Importância das variáveis
-└── exploratory_plots/ # Visualizações exploratórias
-
-yaml
-Copiar
-Editar
-
----
 
 ## ⚙️ Como Executar
 
@@ -57,9 +38,6 @@ git clone https://github.com/seuusuario/seuprojeto-lime-credit.git
 cd seuprojeto-lime-credit
 Instale as dependências:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
 Execute o notebook no Jupyter ou Google Colab:
 
